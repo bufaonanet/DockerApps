@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32428.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerApps", "DockerApps\DockerApps.csproj", "{32CA2573-8106-4BB8-B5A2-3628890E2188}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerService", "WorkerService\WorkerService.csproj", "{12A84664-8732-4ED1-B820-5844E4E999E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{EFC487C9-4DB9-421D-9F34-6A9DEC0D5307}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{17440500-17BE-4DC3-A899-5ED5794B9422}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarvedRock.App", "CarvedRock.App\CarvedRock.App.csproj", "{74CC9E05-E403-4650-99FD-B2EEC64336B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{72BB929E-18AE-4254-9101-B8E6B4BAA101}"
+	ProjectSection(SolutionItems) = preProject
+		..\Exemplos\docker-dot-net-core-apps-developing\06\demos\demos\end\sql\entrypoint.sh = ..\Exemplos\docker-dot-net-core-apps-developing\06\demos\demos\end\sql\entrypoint.sh
+		..\Exemplos\docker-dot-net-core-apps-developing\06\demos\demos\end\sql\InitializeDatabase.sql = ..\Exemplos\docker-dot-net-core-apps-developing\06\demos\demos\end\sql\InitializeDatabase.sql
+		..\Exemplos\docker-dot-net-core-apps-developing\06\demos\demos\end\sql\setup.sh = ..\Exemplos\docker-dot-net-core-apps-developing\06\demos\demos\end\sql\setup.sh
+		..\Exemplos\docker-dot-net-core-apps-developing\06\demos\demos\end\sql\sql.Dockerfile = ..\Exemplos\docker-dot-net-core-apps-developing\06\demos\demos\end\sql\sql.Dockerfile
+		..\Exemplos\docker-dot-net-core-apps-developing\06\demos\demos\end\sql\wait-for-it.sh = ..\Exemplos\docker-dot-net-core-apps-developing\06\demos\demos\end\sql\wait-for-it.sh
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32CA2573-8106-4BB8-B5A2-3628890E2188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32CA2573-8106-4BB8-B5A2-3628890E2188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32CA2573-8106-4BB8-B5A2-3628890E2188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32CA2573-8106-4BB8-B5A2-3628890E2188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A84664-8732-4ED1-B820-5844E4E999E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A84664-8732-4ED1-B820-5844E4E999E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A84664-8732-4ED1-B820-5844E4E999E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A84664-8732-4ED1-B820-5844E4E999E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC487C9-4DB9-421D-9F34-6A9DEC0D5307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC487C9-4DB9-421D-9F34-6A9DEC0D5307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC487C9-4DB9-421D-9F34-6A9DEC0D5307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC487C9-4DB9-421D-9F34-6A9DEC0D5307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17440500-17BE-4DC3-A899-5ED5794B9422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17440500-17BE-4DC3-A899-5ED5794B9422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17440500-17BE-4DC3-A899-5ED5794B9422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17440500-17BE-4DC3-A899-5ED5794B9422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74CC9E05-E403-4650-99FD-B2EEC64336B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74CC9E05-E403-4650-99FD-B2EEC64336B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74CC9E05-E403-4650-99FD-B2EEC64336B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74CC9E05-E403-4650-99FD-B2EEC64336B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {324DB717-D0B2-439B-98E7-94E4C269F0CB}
+	EndGlobalSection
+EndGlobal

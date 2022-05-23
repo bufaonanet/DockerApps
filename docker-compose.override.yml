@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  dockerapps:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      
+  carvedrock.app:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development   
+
